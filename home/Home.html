@@ -3,26 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/home/Home.css">
+    <link rel="stylesheet" href="/home/nav.css">
+    <title>Hotel</title>
 </head>
 <body>
     
     <header>
-        <div class="logo"><h1>Logo</h1></div>
 
-        <nav id="nav-bar">
-            <div class="home-title">
-                <h1> Meu Portifolio</h1>
+          <nav id="nav-bar">
+             <div class="logo">
+                <img src="/img/cama.png" alt="logo">
             </div>
 
-            <ul class="nav-list">
-                <li class="item"><a href="#">Sobre Mim</a></li>
-                <li class="item"><a href="#">Projetos</a></li>
-                <li class="item"><a href="#">Tecnologias</a></li>
-                <li class="item"><a href="#">Contato</a></li>
+            <ul id="nav-list">
+                <li class="item">
+                    <a href="#home">Sobre Mim</a>
+                </li>
+                <li class="item">
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li class="item">
+                    <a href="#tecnologias">Tecnologias</a>
+                </li>
+                <li class="item">
+                    <a href="#contato">Contato</a>
+                </li>
             </ul>
 
-            <button><a href="#">Sair</a></button>
+            <button class="btn-sair"><a href="#">Reserve aqui</a></button>
+
+            <button id="btn-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div id="menu-mobile">
+                <ul id="nav-list-mobile">
+                    <li class="item-mobile">
+                        <a href="#home">Sobre Mim</a>
+                    </li>
+                    <li class="item-mobile">
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                    <li class="item-mobile">
+                        <a href="#tecnologias">Tecnologias</a>
+                    </li>
+                    <li class="item-mobile">
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+
+                <button class="btn-sair-mobile"><a href="#">Reserve aqui</a></button>
+            </div>
         </nav>
 
     </header>
